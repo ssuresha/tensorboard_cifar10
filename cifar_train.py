@@ -73,7 +73,7 @@ for learn_rt in learn_rts:
             accuracy_summary = tf.summary.scalar("accuracy",cnn.accuracy)
             # image_summary = tf.summary.image("input_images",cnn.input_x)
 
-            # Keep track of gradient values and sparsity (optional)
+            # Keep track of weights and their gradient values  
             grad_summaries = []
             for g, v in grads_and_vars:
                 if g is not None:
