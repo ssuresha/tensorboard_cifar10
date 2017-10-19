@@ -28,5 +28,5 @@ Use the following command in the terminal:
 tensorboard --logdir runs/summaries
 ```
 
-
+ Navigate your web browser to localhost:6006 to view the Tensorboard. 
 
